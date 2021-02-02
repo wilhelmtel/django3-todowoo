@@ -1,0 +1,35 @@
+{% extends 'todo/base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<ul>
+    {% for todo in todos %}
+    <li>
+        <a href="{% url 'viewtodo' todo.id %}">
+            {% if todo.important %}
+            <b>{% endif %}{{ todo.title }}{% if todo.important %}</b>{% endif %}
+            <br>
+            {% if todo.memo %}
+            {{ todo.memo }}
+<!--            {{ todo.datecompleted }}-->
+            {% endif %}
+            <br><br>
+            {% endfor %}
+        </a>
+    </li>
+    </a>
+    <br><br><br>
+<img src="{% static 'todo/josiahlewis.jpg' %}" width="150px", border-radius="50px">
+<div class="row justify-content-center mt-1">
+    <div class="col-md=7 text-center">
+
+<h1>Simply your ToDos. Woo! </h1>
+<p>Life is a short distance run. Why don't you make yourself more efficient and make sure you not forget anything important. <br><b><i>ToDo Woo </b></i>was created for you by <a href="https://www.zappycode.com">Zappy Code
+</a> and<a href="https://Viliam.pythonanywhere.com"> Viliam Marenčák</a><img src="{% static 'todo/snakelogo2.jpg' %}" height="30px"> !</p>
+</div>
+</div>
+
+
+{% endblock %}

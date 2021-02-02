@@ -1,0 +1,46 @@
+
+<!--    -->
+<!--    {% else %}-->
+<!--    <img src="{% static 'todo/no_memo.jpg' %}" width="150px", border-radius="50px">-->
+<!--    <style>-->
+<!--    body {-->
+<!--      background-color: black;-->
+<!--      font-family: cursive;-->
+<!--    }-->
+<!--    -->
+<!--    .glow {-->
+<!--      font-size: 80px;-->
+<!--      color: #fff;-->
+<!--      text-align: center;-->
+<!--      -webkit-animation: glow 1s ease-in-out infinite alternate;-->
+<!--      -moz-animation: glow 1s ease-in-out infinite alternate;-->
+<!--      animation: glow 1s ease-in-out infinite alternate;-->
+<!--    }-->
+<!--    -->
+<!--    @-webkit-keyframes glow {-->
+<!--      from {-->
+<!--        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;-->
+<!--      }-->
+<!--    -->
+<!--      to {-->
+<!--        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;-->
+<!--      }-->
+<!--    }-->
+<!--    </style>-->
+<!--    </head>-->
+<!--    <body>-->
+<!--    -->
+<!--    <h1 class="glow">No Memos, Enjoy!</h1>-->
+<!--    {% endif %}-->
+
+.............///////////////////////////////////////////////////////////////////
+
+<!--<h1>Create new user</h1>-->
+
+<!--<h2 style="color:red">{{ error }}</h2>-->
+
+<!--<form method="POST">-->
+<!--    {% csrf_token %}-->
+<!--{{ form.as_p }}-->
+<!--<button type="submit">Sign Up</button>-->
+<!--</form>
